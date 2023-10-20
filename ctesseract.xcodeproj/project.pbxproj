@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		909389B42AE28614005F4DAF /* donut.c in Sources */ = {isa = PBXBuildFile; fileRef = 909389B32AE28614005F4DAF /* donut.c */; };
+		909389B42AE28614005F4DAF /* ctesseract.c in Sources */ = {isa = PBXBuildFile; fileRef = 909389B32AE28614005F4DAF /* ctesseract.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		909389A82AE27FD8005F4DAF /* smatrix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = smatrix; sourceTree = BUILT_PRODUCTS_DIR; };
-		909389B32AE28614005F4DAF /* donut.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = donut.c; sourceTree = "<group>"; };
+		909389A82AE27FD8005F4DAF /* ctesseract */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ctesseract; sourceTree = BUILT_PRODUCTS_DIR; };
+		909389B32AE28614005F4DAF /* ctesseract.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ctesseract.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,7 @@
 		9093899F2AE27FD8005F4DAF = {
 			isa = PBXGroup;
 			children = (
-				909389AA2AE27FD8005F4DAF /* smatrix */,
+				909389AA2AE27FD8005F4DAF /* cterresact */,
 				909389A92AE27FD8005F4DAF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +49,25 @@
 		909389A92AE27FD8005F4DAF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				909389A82AE27FD8005F4DAF /* smatrix */,
+				909389A82AE27FD8005F4DAF /* ctesseract */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		909389AA2AE27FD8005F4DAF /* smatrix */ = {
+		909389AA2AE27FD8005F4DAF /* cterresact */ = {
 			isa = PBXGroup;
 			children = (
-				909389B32AE28614005F4DAF /* donut.c */,
+				909389B32AE28614005F4DAF /* ctesseract.c */,
 			);
-			path = smatrix;
+			path = cterresact;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		909389A72AE27FD8005F4DAF /* smatrix */ = {
+		909389A72AE27FD8005F4DAF /* ctesseract */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 909389AF2AE27FD8005F4DAF /* Build configuration list for PBXNativeTarget "smatrix" */;
+			buildConfigurationList = 909389AF2AE27FD8005F4DAF /* Build configuration list for PBXNativeTarget "ctesseract" */;
 			buildPhases = (
 				909389A42AE27FD8005F4DAF /* Sources */,
 				909389A52AE27FD8005F4DAF /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = smatrix;
+			name = ctesseract;
 			productName = smatrix;
-			productReference = 909389A82AE27FD8005F4DAF /* smatrix */;
+			productReference = 909389A82AE27FD8005F4DAF /* ctesseract */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 909389A32AE27FD8005F4DAF /* Build configuration list for PBXProject "smatrix" */;
+			buildConfigurationList = 909389A32AE27FD8005F4DAF /* Build configuration list for PBXProject "ctesseract" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				909389A72AE27FD8005F4DAF /* smatrix */,
+				909389A72AE27FD8005F4DAF /* ctesseract */,
 			);
 		};
 /* End PBXProject section */
@@ -119,7 +119,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				909389B42AE28614005F4DAF /* donut.c in Sources */,
+				909389B42AE28614005F4DAF /* ctesseract.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +260,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		909389A32AE27FD8005F4DAF /* Build configuration list for PBXProject "smatrix" */ = {
+		909389A32AE27FD8005F4DAF /* Build configuration list for PBXProject "ctesseract" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				909389AD2AE27FD8005F4DAF /* Debug */,
@@ -269,7 +269,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		909389AF2AE27FD8005F4DAF /* Build configuration list for PBXNativeTarget "smatrix" */ = {
+		909389AF2AE27FD8005F4DAF /* Build configuration list for PBXNativeTarget "ctesseract" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				909389B02AE27FD8005F4DAF /* Debug */,
